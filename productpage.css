@@ -1,0 +1,513 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.header1 {
+    height: 35px;
+    width: 450px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.header2 {
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.sp1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sp1 {
+    cursor: pointer;
+}
+
+.header3 {
+    height: 40px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn1 {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: black 2px solid;
+    padding-top: 2px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+input[type="text"] {
+    border-radius: 7px;
+    font-size: 18px;
+    height: 100%;
+    width: 180px;
+    border: none;
+    box-shadow: 0px 0px 3px 1px rgb(207, 207, 207);
+    padding: 0px 3px 0px 3px;
+}
+
+.cart {
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: black 2px solid;
+    padding-top: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.drop-down {
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 3px 0px 0px 15px;
+    border: black 2px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.drop-down:hover {
+    background-color: black;
+    color: white;
+}
+
+option {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.main-container {
+    height: 700px;
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 {
+    height: 400px;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child2,
+.child3 {
+    height: 700px;
+    width: 500px;
+}
+
+.child3 {
+    height: 700px;
+    width: 400px;
+}
+
+.data {
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.data:hover {
+    border: black solid 2px;
+    border-radius: 20px;
+    ;
+}
+
+img {
+    height: 700px;
+    width: 500px;
+    border-radius: 100px;
+}
+
+.small_image {
+    height: 85px;
+    width: 85px;
+    border-radius: 20px;
+}
+
+#layers {
+    background-color: rgb(3, 165, 3);
+    height: 30px;
+    width: 90px;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+#text-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.size {
+    height: 50px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.size1 {
+    height: 50px;
+    width: 50px;
+    border: black 2px solid;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    font-family: arial;
+    cursor: pointer;
+}
+
+.size1:focus {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.increment {
+    height: 45px;
+    width: 170px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.increment1 {
+    height: 45px;
+    width: 45px;
+    border: black 2px solid;
+    border-radius: 50%;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.sold_button {
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sold_button:hover {
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: Gill Sans MT;
+    margin-top: 25px;
+}
+
+/* footer */
+#footer {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(201, 194, 243);
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    position: relative;
+}
+
+.footer1 {
+    width: 980px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: relative;
+}
+
+.item2,
+.item3 {
+    height: 130px;
+}
+
+.item2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 10px;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 50px;
+}
+
+.round-div {
+    height: 250px;
+    width: 230px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: gold;
+}
+
+.round-text1,
+.round-text2,
+.round-text3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+}
+
+.round-text1 {
+    top: 40px;
+    left: 85px;
+}
+
+.round-text2 {
+    left: -10px;
+    transform: rotate(-90deg);
+    bottom: 75px;
+}
+
+.round-text3 {
+    transform: rotate(90deg);
+    right: 50px;
+    bottom: 75px;
+}
+
+#arrow_btn {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+}
+
+.d_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-family: arial;
+    word-spacing: 30px;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.d1_text {
+    font-family: arial;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.d1_text li {
+    padding: 7px;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#prev-button {
+    height: 35px;
+    width: 160px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#prev-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-animation {
+    background-color: rgb(201, 194, 243);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.footer_span_text {
+    font-size: 24px;
+    margin: 0px 8px 0px 8px;
+    letter-spacing: 1.3px;
+}
+
+.ani {
+    animation: hello 10s infinite linear
+}
+
+@keyframes hello {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.contact {
+    height: 500px;
+    width: 400px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 20px;
+    position: fixed;
+    top: -500px;
+    left: 37%;
+    transition-duration: 0.4s;
+}
+
+.hide-button {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 20px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: rgb(90, 89, 89) solid 2px;
+    cursor: pointer;
+
+}
+
+form {
+    width: 270px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.submit_form {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 0px 7px 0px 8px;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 17px;
+}
+
+.box1 {
+    height: 35px;
+    width: 85px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: rgb(97, 97, 97) 2px solid;
+}
+
+.box1:hover {
+    background-color: aquamarine;
+}
